@@ -1,0 +1,5 @@
+npm i react-chartjs-2 chart.js
+npm i react-router-dom
+npm i primereact
+
+npm run start

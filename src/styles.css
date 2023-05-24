@@ -1,0 +1,213 @@
+body {
+    margin: 1;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1b2430;
+    margin: 6px;
+    padding: 5px 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#navul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navul li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+#navul li a:hover {
+    color: #17cf90;
+}
+
+#navul li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #17cf90;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+.site-logo {
+    position: relative;
+    width: 300px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-logo img {
+    position: relative;
+    max-width: 80%;
+    max-height: 100%;
+}
+
+.button {
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 4px 2px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    border-radius: 15px;
+}
+
+.button:hover {
+    background-color: rgb(41, 39, 39);
+    color: white;
+}
+
+.parent-chart {
+    /* background-color: red; */
+    /* align-items: center;  */
+    /* position: relative; */
+    /* justify-content: center; */
+    /* height: 700px; */
+}
+
+.line-chart {
+    /* margin: 6%;  */
+    margin: 70px;
+    background-color: rgb(231, 233, 232);
+    /* width: 80%; */
+    /* height: 80%; */
+    /* display: "flex"; 
+    align-items: center; 
+    /* position: relative; */
+    /* justify-content: center; */
+
+}
+
+.parent-analysis {
+    position: relative;
+    background-color: blue;
+    align-items: center;
+}
+
+.analysis-one {
+    position: relative;
+    background-color: red;
+}
+
+.analysis-two {
+    position: relative;
+    background-color: green;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.65;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(61, 60, 60);
+    font-size: 17px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.pic1 {
+    width: 500px;
+    height: 500px;
+    margin: 40px
+}
+
+.home {
+    display: flex;
+}
+
+.home1 {
+    width: 45%;
+    margin: 50px;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form {
+    margin: 80px;
+}
+
+.form div {
+    margin: 30px;
+}
+
+.label {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.datatable {
+    margin: 40px;
+}
+
+.filter-input {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.filter-div {
+    margin: 20px;
+}
+
+.about-ul {
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 1.65;
+    font-weight: bold;
+    color: rgb(61, 60, 60);
+    font-size: 17px;
+}
